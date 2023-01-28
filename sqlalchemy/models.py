@@ -1,7 +1,5 @@
-# sqlalchemy kütüphanesinden gerekli sütunları
-#  tanımlama sınıflarını içe aktarıyoruz
+
 from sqlalchemy import Boolean, Column, Integer, String
-# ORM için gerekli olan taban sınıfını içe aktarıyoruz
 from db import Base
 
 
